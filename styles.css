@@ -1,11 +1,11 @@
 .blue {
   color: rgba(255, 255, 0, 0.5);
   color: #00000000;
-  color: hsla(0, 100%, 50%);
+  color: rgb(0, 0, 0);
 }
 
 h1 {
-  color: blue;
+  color: rgba(103, 255, 1, 0.856);
 }
 
 body {
@@ -15,8 +15,8 @@ body {
 .box {
   height: 100px;
   width: 2rem;
-  padding: 20px;
-  margin: 50px;
-  border: 10px solid black;
+  padding: 40px;
+  margin: 80px;
+  border: 10px solid rgb(85, 85, 85);
   background-color: red;
 }
