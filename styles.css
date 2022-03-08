@@ -5,18 +5,18 @@
 }
 
 h1 {
-  color: rgba(103, 255, 1, 0.856);
+  color: blue;
 }
 
 body {
-  color: purple;
+  color: black;
 }
 
-.box {
+/* .box {
   height: 100px;
   width: 2rem;
   padding: 40px;
   margin: 80px;
   border: 10px solid rgb(85, 85, 85);
   background-color: red;
-}
+} */
