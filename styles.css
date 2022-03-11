@@ -122,4 +122,69 @@ body {
 }
 
 .btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em;
+  cursor: pointer;
+}
+
+.btn-header {
+  margin: 0.5em 15% 2em 15%;
+  color: white;
+  border: 2px solid #56ccf2;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.event-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.event-row:last-child {
+  border-bottom: none;
+}
+
+.event-item {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+.event-date {
+  color: #555;
+  font-weight: bold;
+  width: 11%;
+}
+
+.event-city {
+  width: 24%;
+}
+
+.event-stadium {
+  width: 42%;
+}
+
+.event-btn {
+  max-width: 19%;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #56ccf2;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #2d9cdb;
 }
